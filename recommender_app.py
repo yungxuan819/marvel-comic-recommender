@@ -4,7 +4,9 @@ import hashlib
 import time 
 import pandas as pd 
 from datetime import datetime
-from config import PUBLIC_KEY, PRIVATE_KEY
+
+PUBLIC_KEY = st.secrets["PUBLIC_KEY"]
+PRIVATE_KEY = st.secrets["PRIVATE_KEY"]
 
 # Return a dict of authentication parameters for the API request
 def get_auth_params():
