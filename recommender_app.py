@@ -118,3 +118,9 @@ if character_input and decade:
             st.info("No comics found for that character and timeframe.")
     else:
         st.error("Character not found. Please try another.")
+
+components.html(
+    '<iframe src="https://yourdomain.com/ads.html" width="100%" height="200" frameborder="0"></iframe>',
+    height=200,
+)
+
